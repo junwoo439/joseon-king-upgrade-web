@@ -17,7 +17,7 @@ function cost() {
 }
 
 function sellPrice() {
-  return Math.floor(cost() * 0.9 + level * 1000);
+  return Math.floor(cost() * 0.9 + level * 10000);
 }
 
 function successRate() {
