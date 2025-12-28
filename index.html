@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>조선 왕 강화하기</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div id="game">
+    <h1>조선 왕 강화하기</h1>
+
+    <div class="top">
+      <div id="info">
+        <div id="cost"></div>
+        <div id="sell"></div>
+        <div id="money"></div>
+      </div>
+
+      <div id="face-box">
+        <img id="face" src="">
+        <div id="face-x">✕</div>
+      </div>
+    </div>
+
+    <div id="main">
+      <div id="status"></div>
+      <div id="rate"></div>
+    </div>
+
+    <div class="buttons">
+      <button id="upgrade">강화하기</button>
+      <button id="sellBtn">판매하기</button>
+    </div>
+
+    <div id="popup"></div>
+
+    <!-- 엔딩 -->
+    <div id="ending">
+      <div id="ending-box">
+        <div id="ending-text"></div>
+        <button onclick="location.reload()">다시 시작</button>
+      </div>
+    </div>
+  </div>
+
+  <script src="game.js"></script>
+</body>
+</html>
