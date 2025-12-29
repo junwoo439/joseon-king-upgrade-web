@@ -27,12 +27,12 @@ function successRate() {
 
 function downRate() {
   if (level < 5) return 0;
-  return Math.min(15, (level - 4) * 3);
+  return Math.min(15, (level - 7) * 0.75);
 }
 
 function breakRate() {
   if (level < 10) return 0;
-  return Math.min(5, level - 9);
+  return Math.min(5, (level - 16) * 0.5);
 }
 
 function updateUI() {
